@@ -2,9 +2,9 @@
 # Stacks, Queues - LIFO, FIFO
 
 
-##Requirements
+## Requirements
 
-#General
+# General
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
 All your files should end with a new line
@@ -18,7 +18,7 @@ Don’t forget to push your header file
 All your header files should be include guarded
 You are expected to do the tasks in the order shown in the project
 
-#Please use the following data structures for this project. Don’t forget to include them in your header file.
+# Please use the following data structures for this project. Don’t forget to include them in your header file.
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
@@ -37,7 +37,8 @@ typedef struct stack_s
 } stack_t;
 
 ```
-######
+###### 
+
 ```
 
 /**
@@ -54,7 +55,7 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-##Compilation & Output
+## Compilation & Output
 
 
 Code will be compiled this way:
@@ -63,10 +64,10 @@ $ ```gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty```
 - Any output must be printed on ```stdout```
 - Any error message must be printed on ```stderr```
 
-#The Monty language
+# The Monty language
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
 
-##Monty byte code files
+## Monty byte code files
 
 Files containing Monty byte codes usually have the .m extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument:
 
